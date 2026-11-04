@@ -2,7 +2,7 @@
 
 Agent Engineer building systems that transform knowledge into decisions.
 
-Currently working on real-time AI agents at Alibaba Cloud.
+Past worked on real-time AI agents at Alibaba Cloud.
 
 Outside of work, I build autonomous research systems focused on investment intelligence.
 
