@@ -1,7 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-  <rect width="1200" height="300" rx="16" fill="#F0EEE6"/>
-  <text x="72" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#141413">Hi, I'm Rain.</text>
-  <text x="72" y="196" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#5E5D59">Agent engineer — building systems that turn knowledge into decisions.</text>
-  <circle cx="1060" cy="150" r="54" fill="#D97757"/>
-  <circle cx="1060" cy="150" r="54" fill="none" stroke="#141413" stroke-width="1.5" transform="translate(-22 -14)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
+  <style>
+    .bg   { fill: #F0EEE6; }
+    .card { fill: #FAF9F5; stroke: #E3DACC; }
+    .ink  { fill: #141413; }
+    .mute { fill: #5E5D59; }
+    .clay { fill: #D97757; }
+    .line { stroke: #D9D4C7; }
+    .pill { fill: none; stroke: #C9C2B2; }
+    .ring { fill: none; stroke: #141413; }
+    .serif { font-family: Georgia, 'Times New Roman', serif; }
+    .sans  { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .bg   { fill: #1F1E1D; }
+      .card { fill: #262624; stroke: #3A3936; }
+      .ink  { fill: #F0EEE6; }
+      .mute { fill: #B0AEA5; }
+      .line { stroke: #3A3936; }
+      .pill { stroke: #4A4844; }
+      .ring { stroke: #F0EEE6; }
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="920" rx="20"/>
+
+  <!-- decoration -->
+  <circle class="clay" cx="1050" cy="130" r="58"/>
+  <circle class="ring" cx="1026" cy="114" r="58" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text class="serif ink" x="72" y="140" font-size="66">Hi, I'm Rain.</text>
+  <text class="sans mute" x="72" y="196" font-size="24">Agent engineer — building systems that turn knowledge into decisions.</text>
+
+  <!-- about -->
+  <text class="sans ink" x="72" y="268" font-size="19">Previously built real-time AI agents at Alibaba Cloud.</text>
+  <text class="sans ink" x="72" y="300" font-size="19">Outside of work, I build autonomous research systems for investment intelligence.</text>
+
+  <!-- projects -->
+  <text class="sans clay" x="72" y="372" font-size="15" letter-spacing="2">PROJECTS</text>
+
+  <rect class="card" x="72" y="394" width="510" height="180" rx="14" stroke-width="1"/>
+  <text class="serif ink" x="104" y="448" font-size="32">Uteki</text>
+  <text class="sans mute" font-size="18">
+    <tspan x="104" y="494">An investment research agent that turns</tspan>
+    <tspan x="104" y="522">information into structured decisions.</tspan>
+  </text>
+
+  <rect class="card" x="618" y="394" width="510" height="180" rx="14" stroke-width="1"/>
+  <text class="serif ink" x="650" y="448" font-size="32">Shinkai</text>
+  <text class="sans mute" font-size="18">
+    <tspan x="650" y="494">A deep-research agent for finding exceptional</tspan>
+    <tspan x="650" y="522">businesses hidden beneath market narratives.</tspan>
+  </text>
+
+  <!-- interests -->
+  <text class="sans clay" x="72" y="642" font-size="15" letter-spacing="2">INTERESTS</text>
+  <g class="sans ink" font-size="17" text-anchor="middle">
+    <rect class="pill" x="72"  y="664" width="157" height="40" rx="20"/><text x="150.5" y="690">Agent systems</text>
+    <rect class="pill" x="241" y="664" width="211" height="40" rx="20"/><text x="346.5" y="690">Context engineering</text>
+    <rect class="pill" x="464" y="664" width="220" height="40" rx="20"/><text x="574"   y="690">Memory architectures</text>
+    <rect class="pill" x="696" y="664" width="265" height="40" rx="20"/><text x="828.5" y="690">Multi-agent collaboration</text>
+    <rect class="pill" x="72"  y="716" width="211" height="40" rx="20"/><text x="177.5" y="742">Investment research</text>
+    <rect class="pill" x="295" y="716" width="229" height="40" rx="20"/><text x="409.5" y="742">Decision intelligence</text>
+  </g>
+
+  <!-- footer -->
+  <line class="line" x1="72" y1="810" x2="1128" y2="810" stroke-width="1"/>
+  <text class="serif mute" x="72" y="862" font-size="24" font-style="italic">Models generate tokens. <tspan class="ink">Systems generate intelligence.</tspan></text>
 </svg>
