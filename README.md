@@ -1,36 +1,21 @@
-# Hi, There～ I'm Rain.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <img alt="Hi, I'm Rain." src="./banner-light.svg" width="100%">
+</picture>
 
-Agent Engineer building systems that transform knowledge into decisions.
+Previously built real-time AI agents at Alibaba Cloud.
+Outside of work, I build autonomous research systems for investment intelligence.
 
-Past worked on real-time AI agents at Alibaba Cloud.
+### Projects
 
-Outside of work, I build autonomous research systems focused on investment intelligence.
+**[Uteki](https://github.com/Rain1601/uteki)** — An investment research agent that turns information into structured decisions.
 
----
+**[Shinkai](https://github.com/Rain1601/shinkai)** — A deep-research agent for finding exceptional businesses hidden beneath market narratives.
 
-## Projects
+### Interests
 
-### 🌧 Uteki
-
-An investment research agent that transforms information into structured decisions.
-
-### 🌊 Shinkai
-
-A deep-research agent focused on discovering exceptional businesses hidden beneath market narratives.
+Agent systems · Context engineering · Memory architectures · Multi-agent collaboration · Investment research · Decision intelligence
 
 ---
 
-## Interests
-
-- Agent Systems
-- Context Engineering
-- Memory Architectures
-- Multi-Agent Collaboration
-- Investment Research
-- Decision Intelligence
-
----
-
-> Models generate tokens.
->
-> Systems generate intelligence.
+<sub>Models generate tokens. Systems generate intelligence.</sub>
