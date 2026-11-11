@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" rx="16" fill="#F0EEE6"/>
+  <text x="72" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#141413">Hi, I'm Rain.</text>
+  <text x="72" y="196" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#5E5D59">Agent engineer — building systems that turn knowledge into decisions.</text>
+  <circle cx="1060" cy="150" r="54" fill="#D97757"/>
+  <circle cx="1060" cy="150" r="54" fill="none" stroke="#141413" stroke-width="1.5" transform="translate(-22 -14)"/>
+</svg>
